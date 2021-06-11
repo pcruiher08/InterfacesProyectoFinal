@@ -273,7 +273,7 @@ int PIC32MZ() {
 	puts(mensaje);
 
 
-	for (int i = 0; i < 256; i+=2) {
+	for (int i = 0; i < longitud; i+=2) {
 		//enviamos
 
 		reporteSalida[0] = 0x00;
